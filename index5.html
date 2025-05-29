@@ -1,63 +1,73 @@
 <!doctype html>
 <html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <title class="neon">AIM ZONE</title>
-  <link rel="stylesheet" href="styles2.css" />
-  <link rel="stylesheet" href="colores.css" />
-  <link rel="stylesheet" href="fondopagina.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" /> <!-- Font Awesome -->
-  <link rel="stylesheet" href="contactos.css" />
-</head>
+ <head>
+   <meta charset="utf-8" />
+   <title class="neon">AIM ZONE</title>
+   <link rel="stylesheet" href="styles2.css" />
+   <link rel="stylesheet" href="colores.css" />
+   <link rel="stylesheet" href="fondopagina.css" />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+   <style>
+     .login-icon {
+       position: absolute;
+       top: 20px;
+       right: 20px;
+       font-size: 24px;
+     }
+     .login-icon a {
+       color: white;
+       text-decoration: none;
+     }
+     .button1 {
+       display: inline-block;
+       padding: 15px 30px;
+       font-size: 18px;
+       background-color: #00ffff;
+       color: black;
+       text-decoration: none;
+       border-radius: 10px;
+       transition: background-color 0.3s ease;
+     }
+     .button1:hover {
+       background-color: #00cccc;
+     }
+   </style>
+ </head>
 
-<body>
-  <header>
-    <h1 style="font-size: 60px" class="neon">Contactos</h1>
-  </header>
+ <body>
+   <header style="position: relative;">
+     <h1 style="font-size: 60px" class="neon">Descargar</h1>
+     <div class="login-icon">
+       <a href="login.html" title="Iniciar sesión">
+         <i class="fas fa-user-circle"></i>
+       </a>
+     </div>
+   </header>
 
-  <nav>
-    <a href="index.html" class="neon1">Inicio </a>
-    <a href="index2.html" class="neon1">Acerca de nosotros </a>
-    <a href="index3.html".html class="neon1">Servicios </a>
-    <a href="index4.html" class="neon1">Descargar </a>
-    <a href="index5.html" class="neon1">Contactos </a>
-  </nav>
+   <nav>
+     <a href="index.html" class="neon1">Inicio </a>
+     <a href="index2.html" class="neon1">Acerca de nosotros </a>
+     <a href="index3.html" class="neon1">Servicios </a>
+     <a href="index4.html" class="neon1">Descargar </a>
+     <a href="index5.html" class="neon1">Contactos </a>
+   </nav>
 
-  <main>
-    <section class="contact-section">
-      <h2>Contáctanos</h2>
-      <p>¿Tienes preguntas sobre videojuegos? ¡Estamos aquí para ayudarte!</p>
-      <form action="https://formspree.io/f/mdkgqvoq" method="post">
-        <label for="name">Nombre:</label>
-        <input type="text" id="name" name="name" required>
+   <div class="content">
+     <div class="button-container1">
+       <a href="https://aimzone.itch.io/aimzone" target="_blank" class="button1">
+         <i class="fas fa-download"></i> Ir a Itch.io
+       </a>
+     </div>
+   </div>
 
-        <label for="email">Correo Electrónico:</label>
-        <input type="email" id="email" name="email" required>
+   <style> 
+    body { 
+        background-image: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgznRPEISmr1thzDJSaJUyOfZhAG47APP76h1EoxB9SREKXtkEH6DU128uiKfCz03fi_5gn8gZoR7uOBYa8lf7TehtMBmRCREutKDsIBgkVLYNBJzueS9EEdmr0D_6Qfyzty3354ZsZkSbHIdc6DJ1N31kb4uwEptwjyYAeysSKSQtYz0l1PRyW/w405-h280-rw/3c93276c99473e64c70c09bba879d2f3.gif");
+        background-position: center 25%; 
+        background-size: cover; 
+    } 
+   </style> 
 
-        <label for="subject">Asunto:</label>
-        <input type="text" id="subject" name="subject" required>
-
-        <label for="message">Mensaje:</label>
-        <textarea id="message" name="message" rows="4" required></textarea>
-
-        <button type="submit">Enviar</button>
-      </form>
-
-</form>
-    </section>
-  </main>
-
-  <footer>
-    <logo>
-        <img src="1.png" width="100">
-    </logo>
-    <p class="footer-text neon1">© 2024 Aimzone. All rights reserved.</p>
-    <div class="social-icons">
-      <a href="https://www.youtube.com/@AimZone-99" target="_blank" class="fab fa-youtube"></a>
-      <a href="https://www.instagram.com" target="_blank" class="fab fa-instagram"></a>
-      <a href="https://x.com/AimZoneES" target="_blank" class="fab fa-twitter"></a>
-      <a href="https://www.twitch.tv/aimzone99" target="_blank" class="fab fa-twitch"></a>
-    </div>
-  </footer>
-</body>
-</html>
+   <footer>
+     <logo>
+       <img src="1.png" width=
